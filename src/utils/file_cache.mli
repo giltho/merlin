@@ -37,4 +37,6 @@ end) : sig
 
   val get_cached_entry : string -> Input.t
   (** @raises Not_found if the file is not in cache. *)
+  
+  val get_size : unit -> int
 end

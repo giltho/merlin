@@ -90,4 +90,7 @@ end) = struct
 
   let clear () =
     Hashtbl.clear cache
+
+  let get_size () =
+    Hashtbl.length cache
 end
